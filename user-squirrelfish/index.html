@@ -6,6 +6,8 @@
 	<title>Try Squirrelfish</title>
 	<meta name="description" content="Squirrelfish is a CSS library.">
 	<meta name="keyword" content="Squirrelfish,CSS,library">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
 </head>
 <body>
 	<button class="btn-default"> btn-default </button>
@@ -28,7 +30,20 @@
 	<div class="well"><p>well</p></div>
 	<br>
 	<div class="panel"><p>panel</p><div class="pill"><p>pill</p></div></div>
+	<button style="margin: 12px;" class="btn-default" onMouseOver="spin()" id="spinThis">#spinThis: spin()</button>
+	
+	<button style="margin: 12px;" class="btn-default" onClick="fadeOut()" id="fadeThis">#fadeThis: fadeOut()</button>
+
+	<button style="margin: 12px;" class="btn-default" onClick="switchSizeSmall()" id="sizeThisS">#sizeThisS: switchSizeSmall()</button>
+
+	<button style="margin: 12px;" class="btn-default" onClick="switchSizeMedium()" id="sizeThisM">#sizeThisM: switchSizeMedium()</button>
+
+	<button style="margin: 12px;" class="btn-default" onClick="switchSizeLarge()" id="sizeThisL">#sizeThisL: switchSizeLarge()</button>
+
+	<button style="margin: 12px;" class="btn-default" onClick="disable()" id="disableThis">#disableThis: disable()</button>
+	<br>
 	<a href="http://www.simjs.net/libraries">
 	<button class="btn-primary" style="margin: 8px;">BACK</button></a>
+	<script src="squirrelfish.js"></script>
 	</body>
-	</html>
+</html>
